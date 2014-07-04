@@ -1,6 +1,7 @@
 //you need BouncyCastle library
 //visit http://www.bouncycastle.org/csharp/ for more information about it
-//you also can find in Extension Manager of you Development Enviroment
+//you also can find it in Extension Manager of you Development Enviroment (NuGet in MSVC)
+
 public static string GetSignature(string message, string privateKey)
 {
    // Convert from Base64 format to bytes
