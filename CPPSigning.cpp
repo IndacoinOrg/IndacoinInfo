@@ -1,6 +1,6 @@
 //you need OpenSSL library
 //visit http://www.openssl.org/ for more information
-//you also can find in Extension Mager of you Development Enviroment
+//you also can find it in Extension Mager of you Development Enviroment
 
 #include <string>
 #include <cstring>
