@@ -1,4 +1,4 @@
-## Create sign for private methods
+## Authentication
 
 You need to provide 3 headers to authenticate a private request:
 
