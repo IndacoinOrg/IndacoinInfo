@@ -1,6 +1,6 @@
 ## Authentication
 
-[Read in russian](https://github.com/IndacoinOrg/SigningAlgoritms/wiki/Авторизация-при-работе-с-API)
+[Read in russian](https://github.com/IndacoinOrg/SigningAlgorithms/wiki/Авторизация-при-работе-с-API)
 
 You need to provide 3 headers to authenticate a private request:
 
@@ -14,13 +14,13 @@ Make sure the Content-Type is application/json.
 
 There are examples how to create sign in different languages
 
-* [C++](https://github.com/IndacoinOrg/SigningAlgoritms/blob/master/CPPSigning.cpp)
+* [C++](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/CPPSigning.cpp)
 
-* [C#](https://github.com/IndacoinOrg/SigningAlgoritms/blob/master/CSharpSigning.cs)
+* [C#](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/CSharpSigning.cs)
 
-* [PHP example](https://github.com/IndacoinOrg/SigningAlgoritms/blob/master/PHPSigningExampleGetBalance.php)
+* [PHP example](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/PHPSigningExampleGetBalance.php)
 
-* [Python](https://github.com/IndacoinOrg/SigningAlgoritms/blob/master/PythonSigning.py)
+* [Python](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/PythonSigning.py)
 
 For more information about API visit [Indacoin.com](https://indacoin.com/api)
 
