@@ -1,6 +1,8 @@
 //example of signing in PHP for 'getbalance' method
 //you need OpenSSL library
 //visit http://www.openssl.org/ for more information
+
+//Note: use pem-format of private-key
 <?php
 $data = '';
 $method = "getbalance";
