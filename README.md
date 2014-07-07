@@ -16,7 +16,9 @@ There are examples how to create sign in different languages
 
 * [C++](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/CPPSigning.cpp)
 
-* [C#](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/CSharpSigning.cs)
+* [C# create sign](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/CSharpSigning.cs)
+
+* [C# request examples](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/CSharpSigningexamples.cs) 
 
 * [PHP example](https://github.com/IndacoinOrg/SigningAlgorithms/blob/master/PHPSigningExampleGetBalance.php)
 
