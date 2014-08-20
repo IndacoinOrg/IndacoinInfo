@@ -29,6 +29,7 @@ std::string ecdsaSha1(unsigned char * Sign,const unsigned char * PrivateKey){
 	BIGNUM *pKey;
 	pKey=BN_new();
 	
+	unsigned char *sign;
 	strcpy((char*)sign,keyStr.c_str());
 	BN_bin2bn(sign, keyStr.length(), pKey);
 	EC_KEY_set_private_key(eckey,pKey);
@@ -40,7 +41,7 @@ std::string ecdsaSha1(unsigned char * Sign,const unsigned char * PrivateKey){
 	buffer  = (unsigned char*)OPENSSL_malloc(buf_len);
 	pp=buffer;
 	unsigned char hash[21];
-	SHA1 (Sign,strlen(Sign),hash);
+	SHA1 (Sign,strlen((char *)Sign),hash);
 	int ret=ECDSA_sign(0, hash, 20, pp, &buf_len, eckey);
 	ret=ECDSA_verify(0, sign, 20, buffer, buf_len, eckey);
 	std::string SignStr=base64_encode(pp,buf_len);
