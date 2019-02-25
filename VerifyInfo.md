@@ -12,6 +12,10 @@
 2. indacoin_main_status: 
 3. kyc_main_status
 
+If both of __bank_processing_state__ and __indacoin_main_status__ are in completed state that means that payment should be processed soon.
+
+If one of __bank_processing_state__ or __indacoin_main_status__ are in declined state that means that payment should be declined soon.
+
 **Description of each status**
 
 indacoin_main_status:
