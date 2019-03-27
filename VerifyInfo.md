@@ -1,3 +1,15 @@
+               
+### Types of 3Ds
+                    
+3D Type | Description | Recommendation | Note | Accepting
+------------- | ------------- | ------------- | ------------- | -------------
+**`Y`** | Authentication successful  | Proceed with authorization |	Cardholder passed authentication | **YES**
+`A` | Authentication attempted   | Proceed with authorization |	Liability shift in most cases | NO
+`N` | Authentication failed      | Do not proceed with authorization |	Cardholder failed authentication | NO
+`U` | Authentication unavailable |	Decision to proceed with authorization at merchant's discretion |	No liability shift | NO
+`E` | Error | Do not proceed with authorization | No liability shift | NO
+
+
 ## Statuses in verify_info block
 
 **Main statuses to check**
