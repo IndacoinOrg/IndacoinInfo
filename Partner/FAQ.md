@@ -1,4 +1,4 @@
-# New Document1. **CREATE TRANSACTION**
+1. **CREATE TRANSACTION**:
 
     a. Would be great to see what the response looks like.
     
@@ -19,6 +19,7 @@
     	Before payment we are checking some kind of altcoins for right target_address, also we are checking amounts and that purchase of such altcoin is possible at this moment
 
 2. **PRICE INFO**:
+
     a. Would be great to see what the response looks like.
     
 		You can check live https://indacoin.com/api/GetCoinConvertAmount/USD/BTC/1000
