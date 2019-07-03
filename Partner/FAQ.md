@@ -1,4 +1,4 @@
-1. **CREATE TRANSACTION**
+# New Document1. **CREATE TRANSACTION**
 
     a. Would be great to see what the response looks like.
     
@@ -26,14 +26,45 @@
     
 		It returns estimated amount*
 3. **TRANSACTION INFO**:
-    a. Would be great to see what the response looks like.
+
+	a. What Extra status can be.
+    
+		PaymentPageClosed
+		Non3DSPaymentError
+		WaitingForAccountCreation
+		CashOutPartnerError
+		MarketExchangeSuspendedDueBlackListing
+		BTC2CCPriceChanged
+		RejectedManual
+		CashOutFailed
+		MarketExchangeFailed
+		Rejected
+		CanceledTimeout
+		WaitingForCashin
+		CashedIn
+		ExchangingFunds
+		WaitingForAcception
+		ExchangingAccepted
+		CashOutInProcess
+		FundsSent
+		FundsReceived
+		ReadyToTradeAlt
+		AltOrderPlaced
+		AltTradePartialComplete
+		AltTradeComplete
+		AltCashOutInProcess
+		AltCashOutPlaced
+		AltFundsSent
+		CashOutPaySystemServerError
+        
+    b. Would be great to see what the response looks like.
     
 		It will be just array of transactions infos
 
-    b. Transaction info how it would be looks like.
+    c. Transaction info how it would be looks like.
     
 		We have such on our api_doc page https://indacoin.com/en_gb/api_doc
- ```json        
+```json        
   {
  			      "userId": "support@mail.com"
  			      ,"transactionId": 453668
@@ -56,8 +87,9 @@
  			      ,"extra_info": {}
  			      ,"couponCode": ""
      }
-```
-
+ ```
+    
+    
 
 5. **EXAMPLE OF HOW TO CREATE THE REQUEST ON PHP AND NODE.JS**:
 
@@ -67,7 +99,8 @@
     b. For clarification, is it correct that the signature only includes the nonce and partner name?
     
 		yes
-6. CALLBACK SECTION:
+6. **CALLBACK SECTION**:
+
     a. How do we register our callback URL?
     
 		After receiving keys- you can login to admin panel
